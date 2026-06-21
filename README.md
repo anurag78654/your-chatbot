@@ -111,11 +111,11 @@ In `netlify/functions/chat.js`, change the `MODEL` constant. Options:
 
 | Model                    | Speed      | Context |
 |--------------------------|------------|---------|
-| `llama3-8b-8192`         | Very fast  | 8K      |
-| `llama3-70b-8192`        | Fast       | 8K      |
+| `llama-3.1-8b-instant`   | Very fast  | 131K    |
+| `llama-3.3-70b-versatile`| Fast       | 131K    |
+| `openai/gpt-oss-20b`     | Very fast  | 131K    |
+| `qwen/qwen3-32b`         | Fast       | 131K    |
 | `mixtral-8x7b-32768`     | Fast       | 32K     |
-| `gemma2-9b-it`           | Fast       | 8K      |
-| `llama-3.3-70b-versatile`| Fast       | 8K      |
 
 ### Change the system prompt
 
