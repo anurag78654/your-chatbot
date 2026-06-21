@@ -16,7 +16,7 @@ exports.handler = async (event) => {
     return { statusCode: 405, headers, body: JSON.stringify({ error: 'Method not allowed' }) }
   }
 
-  const apiKey = process.env.GROQ_API_KEY
+  const apiKey = process.env.bhram007GROQkeyformodelsinchat
   if (!apiKey) {
     return { statusCode: 500, headers, body: JSON.stringify({ error: 'GROQ_API_KEY not configured' }) }
   }
